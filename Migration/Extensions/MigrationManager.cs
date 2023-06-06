@@ -14,6 +14,7 @@ namespace Migration.Extensions
                 try
                 {
                     migrationService.ListMigrations();
+                    migrationService.MigrateDown(202106280005);
                     migrationService.MigrateUp();
                 }
                 catch
