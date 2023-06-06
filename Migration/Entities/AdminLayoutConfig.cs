@@ -8,6 +8,6 @@ namespace Migration.Entities
         public string Config { get; set; }
 
         public long newConfig { get; set; }
-        public long MyProperty { get; set; }
+        public string MyProperty { get; set; }
     }
 }
